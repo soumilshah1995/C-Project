@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/soumilshah/CLionProjects/ElevatorEmulator/Counter.h
+iostream
+-
+
+/Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+iostream
+-
+string
+-
+Counter.h
+/Users/soumilshah/CLionProjects/ElevatorEmulator/Counter.h
+
+/Users/soumilshah/CLionProjects/ElevatorEmulator/Visitors.h
+Passenger.h
+/Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+Counter.h
+/Users/soumilshah/CLionProjects/ElevatorEmulator/Counter.h
+
+/Users/soumilshah/CLionProjects/ElevatorEmulator/main.cpp
+iostream
+-
+Counter.h
+/Users/soumilshah/CLionProjects/ElevatorEmulator/Counter.h
+Passenger.h
+/Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+Visitors.h
+/Users/soumilshah/CLionProjects/ElevatorEmulator/Visitors.h
+
