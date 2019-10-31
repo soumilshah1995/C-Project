@@ -7,9 +7,13 @@
 #ifndef ELEVATOREMULATOR_PATIENTS_H
 #define ELEVATOREMULATOR_PATIENTS_H
 
+#include "Passenger.h"
 
-class Patients {
 
+class Patients:public Passenger{
+
+public:
+    static int count;
 
 public:
     /*
@@ -17,10 +21,11 @@ public:
      */
 
     Patients();
-    ~Patients();
+    virtual ~Patients();
 
 public:
-    int static GetCount();
+
+    virtual void introduce () override ;
 
 };
 

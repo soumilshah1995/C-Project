@@ -123,33 +123,6 @@ ElevatorEmulator/fast:
 	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/build
 .PHONY : ElevatorEmulator/fast
 
-Counter.o: Counter.cpp.o
-
-.PHONY : Counter.o
-
-# target to build an object file
-Counter.cpp.o:
-	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Counter.cpp.o
-.PHONY : Counter.cpp.o
-
-Counter.i: Counter.cpp.i
-
-.PHONY : Counter.i
-
-# target to preprocess a source file
-Counter.cpp.i:
-	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Counter.cpp.i
-.PHONY : Counter.cpp.i
-
-Counter.s: Counter.cpp.s
-
-.PHONY : Counter.s
-
-# target to generate assembly for a file
-Counter.cpp.s:
-	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Counter.cpp.s
-.PHONY : Counter.cpp.s
-
 MedicalStaff.o: MedicalStaff.cpp.o
 
 .PHONY : MedicalStaff.o
@@ -348,9 +321,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ElevatorEmulator"
-	@echo "... Counter.o"
-	@echo "... Counter.i"
-	@echo "... Counter.s"
 	@echo "... MedicalStaff.o"
 	@echo "... MedicalStaff.i"
 	@echo "... MedicalStaff.s"

@@ -12,21 +12,30 @@ using namespace std;
 
 #include "Visitors.h"
 #include "Passenger.h"
-#include "Counter.h"
 
+
+int Visitors ::count = 0;
 
 Visitors::Visitors()
 {
     cout << "Visitors Constructor  ------->" << endl;
+
+    count ++;
+    string uniqueId =  "V";
+    string unique = uniqueId + std::to_string(count);
+    PassengerId = unique;
+
 }
 
 
 Visitors::~Visitors()
 {
     cout << "Visitors Destructor  ------" << endl;
+    count --;
 }
 
-int Visitors::GetCount()
+
+void Visitors::introduce()
 {
-    return Counter::GetCount();
+    cout << "Hi! i am Visitors : ID " << PassengerId << endl;
 }

@@ -4,30 +4,34 @@
  * Visitor.h File
  */
 
-
 #ifndef ELEVATOREMULATOR_VISITORS_H
 #define ELEVATOREMULATOR_VISITORS_H
 
 
 #include "Passenger.h"
-#include "Counter.h"
 
 class Visitors : public Passenger{
+
+public:
+    /*
+     * Attributes
+     */
+    static int count;
 
 public:
     /*
      * Constructor and Destructor
      */
     Visitors();
-    ~Visitors();
+    virtual ~Visitors();
 
 public:
     /*
      * Methods
      */
-    int static GetCount();
+
+    virtual void introduce () override ;
 
 };
-
 
 #endif //ELEVATOREMULATOR_VISITORS_H

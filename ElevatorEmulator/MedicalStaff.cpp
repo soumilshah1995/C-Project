@@ -6,22 +6,27 @@
 
 
 #include "MedicalStaff.h"
-#include "Counter.h"
 #include "Passenger.h"
+
+int MedicalStaff::count=0;
 
 MedicalStaff::MedicalStaff()
 {
-    cout << "MedicaStaff Constructor ---->" << endl;
+    cout << " MedicaStaff Constructor ---->" << endl;
+    string uniqueId =  "M";
+    count++;
+    string unique = uniqueId + std::to_string(count);
+    PassengerId = unique;
 }
 
 
 MedicalStaff::~MedicalStaff()
 {
     cout << "MedicalStaff Destructor  --> " << endl;
+    count --;
 }
 
-
-int MedicalStaff::GetCount()
+void MedicalStaff::introduce()
 {
-    return Counter::GetCount();
+    cout << "Hi! i am MedicalStaff ID: " << PassengerId << endl;
 }

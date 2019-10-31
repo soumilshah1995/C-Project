@@ -3,4 +3,4 @@ project(ElevatorEmulator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ElevatorEmulator main.cpp Counter.cpp Counter.h Passenger.cpp Passenger.h Visitors.cpp Visitors.h Patients.cpp Patients.h SupportStaff.cpp SupportStaff.h MedicalStaff.cpp MedicalStaff.h SecurityPersonnel.cpp SecurityPersonnel.h)
+add_executable(ElevatorEmulator main.cpp Passenger.cpp Passenger.h Visitors.cpp Visitors.h Patients.cpp Patients.h SupportStaff.cpp SupportStaff.h MedicalStaff.cpp MedicalStaff.h SecurityPersonnel.cpp SecurityPersonnel.h)

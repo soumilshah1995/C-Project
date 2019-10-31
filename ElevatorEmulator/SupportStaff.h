@@ -11,18 +11,20 @@
 class SupportStaff: public Passenger {
 
 public:
+    int static count;
+public:
     /*
      *  This is constructor  and Destructor
      */
     SupportStaff();
-    ~SupportStaff();
+    virtual ~SupportStaff();
 
 public:
     /*
      * Methods
      */
 
-    int static GetCount();
+    virtual void introduce () override ;
 };
 
 

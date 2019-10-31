@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ElevatorEmulator.dir/Counter.cpp.o"
   "CMakeFiles/ElevatorEmulator.dir/MedicalStaff.cpp.o"
   "CMakeFiles/ElevatorEmulator.dir/Passenger.cpp.o"
   "CMakeFiles/ElevatorEmulator.dir/Patients.cpp.o"

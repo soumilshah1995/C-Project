@@ -6,20 +6,30 @@
 #include "SupportStaff.h"
 using namespace std;
 
-#include "Counter.h"
+
 #include "Passenger.h"
+
+int SupportStaff::count = 0;
+
 
 SupportStaff::SupportStaff()
 {
     cout << "Support Staff Constructor " << endl;
+
+    string uniqueId =  "SUP";
+    count++;
+    string unique = uniqueId + std::to_string(count);
+    PassengerId = unique;
 }
 
 SupportStaff::~SupportStaff()
 {
     cout << "Support staff Destructor " << endl;
+    count --;
 }
 
-int SupportStaff::GetCount()
+
+void SupportStaff::introduce()
 {
-    return Counter::GetCount();
+    cout << "Hi! i am SupportStaff ID "<< PassengerId << endl;
 }

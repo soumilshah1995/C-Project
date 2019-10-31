@@ -5,25 +5,25 @@
 #ifndef ELEVATOREMULATOR_SECURITYPERSONNEL_H
 #define ELEVATOREMULATOR_SECURITYPERSONNEL_H
 
-#include "Counter.h"
+
 #include "Passenger.h"
 
 #include "iostream"
 using namespace std;
 
 
-class SecurityPersonnel {
-
-
+class SecurityPersonnel: public Passenger {
+public:
+    int static count;
 public:
     /*
      * Constructor and Destructor
      */
     SecurityPersonnel();
-    ~SecurityPersonnel();
+    virtual ~SecurityPersonnel();
 
 public:
-    int static Getcount();
+    virtual void introduce();
 
 };
 

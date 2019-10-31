@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/Counter.cpp">
-			<Option target="ElevatorEmulator"/>
-		</Unit>
-		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/Counter.h">
-			<Option target="ElevatorEmulator"/>
-		</Unit>
 		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/MedicalStaff.cpp">
 			<Option target="ElevatorEmulator"/>
 		</Unit>

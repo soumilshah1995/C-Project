@@ -9,13 +9,13 @@
 #include <string>
 using  namespace std;
 
-#include "Counter.h"
+
 
 #ifndef ELEVATOREMULATOR_PASSENGER_H
 #define ELEVATOREMULATOR_PASSENGER_H
 
 
-class Passenger: public Counter {
+class Passenger{
 
 public:
     /*
@@ -37,16 +37,17 @@ public:
      */
 
     Passenger();        // No args Constructor
-    ~Passenger();       // Destructor
+    virtual ~Passenger();       // Destructor
 
 public:
     /*
      * Methods
      */
 
-    int static GetCount();
+    // int static GetCount();
     void RequestFloor();
     void FindWaitTime();
+    virtual void introduce();
 };
 
 

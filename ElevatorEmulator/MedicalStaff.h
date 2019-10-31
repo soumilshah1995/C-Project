@@ -12,13 +12,14 @@ using  namespace std;
 #ifndef ELEVATOREMULATOR_MEDICALSTAFF_H
 #define ELEVATOREMULATOR_MEDICALSTAFF_H
 
-#include "Counter.h"
+
 #include "Passenger.h"
 
 
-class MedicalStaff {
+class MedicalStaff: public Passenger {
 
-
+public:
+    int static count;
 public:
     /*
      *
@@ -26,14 +27,13 @@ public:
      */
 
     MedicalStaff();
-    ~MedicalStaff();
+    virtual ~MedicalStaff();
 
 public:
     /*
      * Methods
      */
-
-    int static GetCount();
+    virtual void introduce();
 };
 
 
