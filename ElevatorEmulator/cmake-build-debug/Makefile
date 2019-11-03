@@ -204,6 +204,60 @@ Patients.cpp.s:
 	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Patients.cpp.s
 .PHONY : Patients.cpp.s
 
+People.o: People.cpp.o
+
+.PHONY : People.o
+
+# target to build an object file
+People.cpp.o:
+	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/People.cpp.o
+.PHONY : People.cpp.o
+
+People.i: People.cpp.i
+
+.PHONY : People.i
+
+# target to preprocess a source file
+People.cpp.i:
+	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/People.cpp.i
+.PHONY : People.cpp.i
+
+People.s: People.cpp.s
+
+.PHONY : People.s
+
+# target to generate assembly for a file
+People.cpp.s:
+	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/People.cpp.s
+.PHONY : People.cpp.s
+
+Security.o: Security.cpp.o
+
+.PHONY : Security.o
+
+# target to build an object file
+Security.cpp.o:
+	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Security.cpp.o
+.PHONY : Security.cpp.o
+
+Security.i: Security.cpp.i
+
+.PHONY : Security.i
+
+# target to preprocess a source file
+Security.cpp.i:
+	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Security.cpp.i
+.PHONY : Security.cpp.i
+
+Security.s: Security.cpp.s
+
+.PHONY : Security.s
+
+# target to generate assembly for a file
+Security.cpp.s:
+	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Security.cpp.s
+.PHONY : Security.cpp.s
+
 SecurityPersonnel.o: SecurityPersonnel.cpp.o
 
 .PHONY : SecurityPersonnel.o
@@ -230,6 +284,33 @@ SecurityPersonnel.s: SecurityPersonnel.cpp.s
 SecurityPersonnel.cpp.s:
 	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/SecurityPersonnel.cpp.s
 .PHONY : SecurityPersonnel.cpp.s
+
+Staff.o: Staff.cpp.o
+
+.PHONY : Staff.o
+
+# target to build an object file
+Staff.cpp.o:
+	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Staff.cpp.o
+.PHONY : Staff.cpp.o
+
+Staff.i: Staff.cpp.i
+
+.PHONY : Staff.i
+
+# target to preprocess a source file
+Staff.cpp.i:
+	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Staff.cpp.i
+.PHONY : Staff.cpp.i
+
+Staff.s: Staff.cpp.s
+
+.PHONY : Staff.s
+
+# target to generate assembly for a file
+Staff.cpp.s:
+	$(MAKE) -f CMakeFiles/ElevatorEmulator.dir/build.make CMakeFiles/ElevatorEmulator.dir/Staff.cpp.s
+.PHONY : Staff.cpp.s
 
 SupportStaff.o: SupportStaff.cpp.o
 
@@ -330,9 +411,18 @@ help:
 	@echo "... Patients.o"
 	@echo "... Patients.i"
 	@echo "... Patients.s"
+	@echo "... People.o"
+	@echo "... People.i"
+	@echo "... People.s"
+	@echo "... Security.o"
+	@echo "... Security.i"
+	@echo "... Security.s"
 	@echo "... SecurityPersonnel.o"
 	@echo "... SecurityPersonnel.i"
 	@echo "... SecurityPersonnel.s"
+	@echo "... Staff.o"
+	@echo "... Staff.i"
+	@echo "... Staff.s"
 	@echo "... SupportStaff.o"
 	@echo "... SupportStaff.i"
 	@echo "... SupportStaff.s"

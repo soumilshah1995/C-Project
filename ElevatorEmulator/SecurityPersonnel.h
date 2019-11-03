@@ -9,10 +9,11 @@
 #include "Passenger.h"
 
 #include "iostream"
+#include "Security.h"
 using namespace std;
 
 
-class SecurityPersonnel: public Passenger {
+class SecurityPersonnel: public Security {
 public:
     int static count;
 public:
@@ -23,7 +24,8 @@ public:
     virtual ~SecurityPersonnel();
 
 public:
-    virtual void introduce();
+    virtual void introduce() override;
+    virtual void evacuate() override ;
 
 };
 

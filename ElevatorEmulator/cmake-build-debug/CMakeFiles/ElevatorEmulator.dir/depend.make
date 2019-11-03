@@ -4,6 +4,7 @@
 CMakeFiles/ElevatorEmulator.dir/MedicalStaff.cpp.o: ../MedicalStaff.cpp
 CMakeFiles/ElevatorEmulator.dir/MedicalStaff.cpp.o: ../MedicalStaff.h
 CMakeFiles/ElevatorEmulator.dir/MedicalStaff.cpp.o: ../Passenger.h
+CMakeFiles/ElevatorEmulator.dir/MedicalStaff.cpp.o: ../Staff.h
 
 CMakeFiles/ElevatorEmulator.dir/Passenger.cpp.o: ../Passenger.cpp
 CMakeFiles/ElevatorEmulator.dir/Passenger.cpp.o: ../Passenger.h
@@ -11,23 +12,42 @@ CMakeFiles/ElevatorEmulator.dir/Passenger.cpp.o: ../Passenger.h
 CMakeFiles/ElevatorEmulator.dir/Patients.cpp.o: ../Passenger.h
 CMakeFiles/ElevatorEmulator.dir/Patients.cpp.o: ../Patients.cpp
 CMakeFiles/ElevatorEmulator.dir/Patients.cpp.o: ../Patients.h
+CMakeFiles/ElevatorEmulator.dir/Patients.cpp.o: ../People.h
+
+CMakeFiles/ElevatorEmulator.dir/People.cpp.o: ../Passenger.h
+CMakeFiles/ElevatorEmulator.dir/People.cpp.o: ../People.cpp
+CMakeFiles/ElevatorEmulator.dir/People.cpp.o: ../People.h
+
+CMakeFiles/ElevatorEmulator.dir/Security.cpp.o: ../Passenger.h
+CMakeFiles/ElevatorEmulator.dir/Security.cpp.o: ../Security.cpp
+CMakeFiles/ElevatorEmulator.dir/Security.cpp.o: ../Security.h
 
 CMakeFiles/ElevatorEmulator.dir/SecurityPersonnel.cpp.o: ../Passenger.h
+CMakeFiles/ElevatorEmulator.dir/SecurityPersonnel.cpp.o: ../Security.h
 CMakeFiles/ElevatorEmulator.dir/SecurityPersonnel.cpp.o: ../SecurityPersonnel.cpp
 CMakeFiles/ElevatorEmulator.dir/SecurityPersonnel.cpp.o: ../SecurityPersonnel.h
 
+CMakeFiles/ElevatorEmulator.dir/Staff.cpp.o: ../Passenger.h
+CMakeFiles/ElevatorEmulator.dir/Staff.cpp.o: ../Staff.cpp
+CMakeFiles/ElevatorEmulator.dir/Staff.cpp.o: ../Staff.h
+
 CMakeFiles/ElevatorEmulator.dir/SupportStaff.cpp.o: ../Passenger.h
+CMakeFiles/ElevatorEmulator.dir/SupportStaff.cpp.o: ../Staff.h
 CMakeFiles/ElevatorEmulator.dir/SupportStaff.cpp.o: ../SupportStaff.cpp
 CMakeFiles/ElevatorEmulator.dir/SupportStaff.cpp.o: ../SupportStaff.h
 
 CMakeFiles/ElevatorEmulator.dir/Visitors.cpp.o: ../Passenger.h
+CMakeFiles/ElevatorEmulator.dir/Visitors.cpp.o: ../People.h
 CMakeFiles/ElevatorEmulator.dir/Visitors.cpp.o: ../Visitors.cpp
 CMakeFiles/ElevatorEmulator.dir/Visitors.cpp.o: ../Visitors.h
 
 CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../MedicalStaff.h
 CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../Passenger.h
 CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../Patients.h
+CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../People.h
+CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../Security.h
 CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../SecurityPersonnel.h
+CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../Staff.h
 CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../SupportStaff.h
 CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../Visitors.h
 CMakeFiles/ElevatorEmulator.dir/main.cpp.o: ../main.cpp

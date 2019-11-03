@@ -37,7 +37,7 @@ int main() {
     cout << "\n";
 
     for (int i = 0; i < 16; i++)
-    {   cout << "=======================" << endl;
+    {   cout << "==================================================" << endl;
         Passenger[i]->introduce(); // polymorphic method displays id
         cout << "\n";
     }

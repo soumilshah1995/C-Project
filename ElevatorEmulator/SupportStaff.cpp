@@ -16,7 +16,7 @@ SupportStaff::SupportStaff()
 {
     cout << "Support Staff Constructor " << endl;
 
-    string uniqueId =  "SUP";
+    string uniqueId =  "SS";
     count++;
     string unique = uniqueId + std::to_string(count);
     PassengerId = unique;
@@ -32,4 +32,10 @@ SupportStaff::~SupportStaff()
 void SupportStaff::introduce()
 {
     cout << "Hi! i am SupportStaff ID "<< PassengerId << endl;
+}
+
+
+void SupportStaff::emergency()
+{
+    cout << "Support Staff Emergency " << endl;
 }

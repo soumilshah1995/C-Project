@@ -98,10 +98,28 @@
 		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/Patients.h">
 			<Option target="ElevatorEmulator"/>
 		</Unit>
+		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/People.cpp">
+			<Option target="ElevatorEmulator"/>
+		</Unit>
+		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/People.h">
+			<Option target="ElevatorEmulator"/>
+		</Unit>
+		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/Security.cpp">
+			<Option target="ElevatorEmulator"/>
+		</Unit>
+		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/Security.h">
+			<Option target="ElevatorEmulator"/>
+		</Unit>
 		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/SecurityPersonnel.cpp">
 			<Option target="ElevatorEmulator"/>
 		</Unit>
 		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/SecurityPersonnel.h">
+			<Option target="ElevatorEmulator"/>
+		</Unit>
+		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/Staff.cpp">
+			<Option target="ElevatorEmulator"/>
+		</Unit>
+		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/Staff.h">
 			<Option target="ElevatorEmulator"/>
 		</Unit>
 		<Unit filename="/Users/soumilshah/CLionProjects/ElevatorEmulator/SupportStaff.cpp">

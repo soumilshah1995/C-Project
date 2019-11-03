@@ -31,3 +31,8 @@ void SecurityPersonnel::introduce()
 {
     cout << "Hi! i am SecurityPersonnel ID : " << PassengerId << endl;
 }
+
+void SecurityPersonnel::evacuate()
+{
+    cout << "SecurityPersonnel : evacuate " << endl;
+}

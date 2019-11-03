@@ -1,0 +1,82 @@
+ @startuml
+
+title Classes - Elevator Simulator
+
+
+Passenger <|-- People
+Passenger <|-- Staff
+Passenger <|-- Security
+
+
+People <|-- Visitors
+People <|-- Patient
+
+Staff <|-- SupportStaff
+Staff <|-- MedicalStaff
+
+Security <|-- SecurityPersonal
+
+class Security{
+virtual void evacuate();
+}
+
+class Staff{
+virtual void emergency();
+}
+
+class Passenger{
++ string passengerID
++ int weight
++ int currentFloor
++ string getonTime
++ string getoffTime
++ requestFloor()
++ findwaitTime()
+}
+
+class Visitors{
+    static int count;
+
+    Visitors();
+    virtual ~Visitors();
+    virtual void introduce () override ;
+}
+
+class Patient{
+    static int count;
+
+    Patient();
+    virtual ~Patient();
+    virtual void introduce () override ;
+
+}
+
+class SupportStaff{
+
+    static int count;
+    SupportStaff();
+    virtual ~SupportStaff();
+    virtual void introduce () override ;
+    virtual void emergency() override;
+}
+class MedicalStaff{
+
+    static int count;
+    MedicalStaff();
+    virtual ~MedicalStaff();
+    virtual void introduce () override ;
+    virtual void emergency() override ;
+}
+
+class SecurityPersonal{
+    static int count;
+    SecurityPersonal();
+    virtual ~SecurityPersonal();
+    virtual void introduce () override ;
+    virtual void evacuate() override ;
+}
+
+
+
+
+@enduml

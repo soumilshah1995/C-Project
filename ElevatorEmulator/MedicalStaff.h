@@ -14,9 +14,9 @@ using  namespace std;
 
 
 #include "Passenger.h"
+#include "Staff.h"
 
-
-class MedicalStaff: public Passenger {
+class MedicalStaff: public Staff {
 
 public:
     int static count;
@@ -33,7 +33,8 @@ public:
     /*
      * Methods
      */
-    virtual void introduce();
+    virtual void introduce() override ;
+    virtual void emergency() override ;
 };
 
 

@@ -7,8 +7,9 @@
 
 
 #include "Passenger.h"
+#include "Staff.h"
 
-class SupportStaff: public Passenger {
+class SupportStaff: public Staff {
 
 public:
     int static count;
@@ -25,6 +26,7 @@ public:
      */
 
     virtual void introduce () override ;
+    virtual void emergency() override ;
 };
 
 

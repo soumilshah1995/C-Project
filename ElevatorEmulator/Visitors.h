@@ -9,8 +9,9 @@
 
 
 #include "Passenger.h"
+#include "People.h"
 
-class Visitors : public Passenger{
+class Visitors : public People{
 
 public:
     /*

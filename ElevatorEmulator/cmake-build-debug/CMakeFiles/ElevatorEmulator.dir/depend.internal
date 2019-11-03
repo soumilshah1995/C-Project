@@ -5,6 +5,7 @@ CMakeFiles/ElevatorEmulator.dir/MedicalStaff.cpp.o
  /Users/soumilshah/CLionProjects/ElevatorEmulator/MedicalStaff.cpp
  /Users/soumilshah/CLionProjects/ElevatorEmulator/MedicalStaff.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Staff.h
 CMakeFiles/ElevatorEmulator.dir/Passenger.cpp.o
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.cpp
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
@@ -12,23 +13,42 @@ CMakeFiles/ElevatorEmulator.dir/Patients.cpp.o
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Patients.cpp
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Patients.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/People.h
+CMakeFiles/ElevatorEmulator.dir/People.cpp.o
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/People.cpp
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/People.h
+CMakeFiles/ElevatorEmulator.dir/Security.cpp.o
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Security.cpp
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Security.h
 CMakeFiles/ElevatorEmulator.dir/SecurityPersonnel.cpp.o
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Security.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/SecurityPersonnel.cpp
  /Users/soumilshah/CLionProjects/ElevatorEmulator/SecurityPersonnel.h
+CMakeFiles/ElevatorEmulator.dir/Staff.cpp.o
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Staff.cpp
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Staff.h
 CMakeFiles/ElevatorEmulator.dir/SupportStaff.cpp.o
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Staff.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/SupportStaff.cpp
  /Users/soumilshah/CLionProjects/ElevatorEmulator/SupportStaff.h
 CMakeFiles/ElevatorEmulator.dir/Visitors.cpp.o
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/People.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Visitors.cpp
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Visitors.h
 CMakeFiles/ElevatorEmulator.dir/main.cpp.o
  /Users/soumilshah/CLionProjects/ElevatorEmulator/MedicalStaff.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Passenger.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Patients.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/People.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Security.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/SecurityPersonnel.h
+ /Users/soumilshah/CLionProjects/ElevatorEmulator/Staff.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/SupportStaff.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/Visitors.h
  /Users/soumilshah/CLionProjects/ElevatorEmulator/main.cpp
