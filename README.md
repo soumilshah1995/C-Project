@@ -2,4 +2,4 @@
 
 ### phase1 UML Diagram for different Passengers
 
-![image](https://user-images.githubusercontent.com/39345855/67880007-4c53f880-fb14-11e9-91e1-06b59e4fb100.png)
+![image](https://user-images.githubusercontent.com/39345855/68090119-21ccad00-fe3e-11e9-8f71-1d2d345c3699.png)
